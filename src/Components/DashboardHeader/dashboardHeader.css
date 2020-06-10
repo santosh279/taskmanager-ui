@@ -1,0 +1,131 @@
+.grid {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row-extend {
+  margin-top: 2%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.row-extend-2 {
+  margin-top: 3%;
+  margin-bottom: -18px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col-extend {
+  display: flex;
+}
+
+.workspace-font {
+  font-size: larger;
+}
+
+.fav {
+  font-size: larger;
+  margin-top: 5px;
+  color: whitesmoke
+}
+
+.description {
+  position: absolute;
+  top: 26px;
+  left: 0%;
+}
+
+.checked {
+  color: orange;
+}
+
+.input-description {
+  height: 2%;
+  /* width: 112%; */
+  border: none;
+  border-color: transparent;
+}
+
+.plug-in {
+  background-color: white;
+  border: 1px solid #7f7676;
+  margin-left: 35px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.robo-in {
+  background-color: white;
+  border: 1px solid #7f7676;
+  margin-left: 35px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.zoom-in {
+  background-color: white;
+  border: 1px solid #7f7676;
+  margin-left: 55%;
+  width: 163px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-image: url("../../Assets/icons/video.png");
+}
+
+.ham-in {
+  background-color: white;
+  border: 1px solid transparent;
+  margin-left: 97%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.image-plugin {
+  vertical-align: middle;
+  border-style: none;
+  width: 20px;
+}
+
+.robo-plugin {
+  vertical-align: middle;
+  border-style: none;
+  width: 20px;
+}
+
+.zoom-plugin {
+  vertical-align: middle;
+  border-style: none;
+  width: 20px;
+}
+
+.ham-plugin {
+  vertical-align: middle;
+  border-style: none;
+  width: 20px;
+}
+
+.new-item {
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.new-item-div {
+  margin-top: -12px;
+  margin-left: 45%;
+}
+
+.search-bar {
+  margin-top: -7px;
+  width: 240px;
+}
+
+.add-button {
+  height: 78%;
+  text-align: center;
+}
